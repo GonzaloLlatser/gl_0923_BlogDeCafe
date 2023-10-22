@@ -85,7 +85,7 @@ img {
 
 /* Estilos Header */
 
-.header{
+.header {
   background-image: url(../img/banner.jpg);
   height: 60rem;
   background-size: cover;
@@ -93,52 +93,52 @@ img {
   background-position: center center;
 }
 
-.header__texto{
+.header__texto {
   text-align: center;
   color: var(--blanco);
   margin-top: 5rem;
 }
 
 @media (min-width: 768px) {
-  .header__texto{
+  .header__texto {
     margin-top: 15rem;
   }
 }
 
-.barra{
+.barra {
   padding-top: 4rem;
 }
 
 @media (min-width: 768px) {
-  .barra{
+  .barra {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
 }
 
-.logo{
-color: var(--blanco);
+.logo {
+  color: var(--blanco);
 }
 
-.logo__nombre{
+.logo__nombre {
   font-weight: 400;
 }
 
-.logo__bold{
+.logo__bold {
   font-weight: bold;
 }
 
 /* Estilos Navegacion */
 
 @media (min-width: 768px) {
-  .navegacion{
+  .navegacion {
     display: flex;
     gap: 2rem;
   }
 }
 
-.navegacion__enlace{
+.navegacion__enlace {
   display: block;
   text-align: center;
   font-size: 1.8rem;
@@ -148,25 +148,25 @@ color: var(--blanco);
 /* Estilos Contenido principal */
 
 @media (min-width: 768px) {
-    
-  .contenido-principal{
+
+  .contenido-principal {
     display: grid;
     grid-template-columns: 2fr 1fr;
     column-gap: 4rem;
   }
 }
 
-.entrada{
+.entrada {
   border-bottom: 1px solid var(--gris);
-  margin-bottom: 2rem ;
+  margin-bottom: 2rem;
 }
 
-.entrada:last-of-type{
+.entrada:last-of-type {
   border: none;
   margin-bottom: 0;
 }
 
-.boton{
+.boton {
   display: block;
   font-family: var(--fuenteHeading);
   color: var(--blanco);
@@ -179,54 +179,62 @@ color: var(--blanco);
 }
 
 @media (min-width: 768px) {
-  .boton{
+  .boton {
     display: inline-block;
   }
 }
 
-.boton--primario{
+.boton--primario {
   background-color: var(--negro);
 }
 
 /* Estilos Contenido principal - sidebar */
 
-.boton--secundario{
+.boton--secundario {
   background-color: var(--primario);
 }
 
-.cursos{
+.cursos {
   list-style: none;
 }
 
-.widget-curso{
+.widget-curso {
   border-bottom: 1px solid var(--gris);
   margin-bottom: 2rem;
 }
 
-.widget-curso:last-of-type{
+.widget-curso:last-of-type {
   border: none;
   margin-bottom: 0;
 }
 
-.widget-curso__label{
+.widget-curso__label {
   font-family: var(--fuenteHeading);
   font-weight: 700;
 }
 
-.widget-curso__info{
+.widget-curso__info {
   font-weight: 400;
 }
 
-.widget-curso__label
-.widget-curso__info{
+.widget-curso__label .widget-curso__info {
   font-size: 2rem;
 }
+
 /* Estilos Pie de Página */
 
-.footer{
+.footer {
   background-color: var(--negro);
   padding-bottom: 3rem;
   margin-top: 4rem;
 }
 
+/* Estilos Pagina Nosotros */
 
+@media (min-width: 768px) {
+  .sobre-nosotros {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+}
